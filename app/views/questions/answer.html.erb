@@ -1,5 +1,25 @@
-<%=@enter%>
-<p>-you</p>
-<br>
-<%= @answer%>
-<p>-your coach</p>
+<div class="container">
+
+    <div class="quest">
+      <figure>
+        <blockquote class="blockquote">
+          <%=@enter%>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          You
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="rep">
+      <figure>
+        <blockquote class="blockquote fw-bold">
+          <%= @answer%>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Your coach
+        </figcaption>
+      </figure>
+    </div>
+
+</div>

@@ -10,6 +10,7 @@ class QuestionsController < ApplicationController
     @enter = params[:questions]
     if @enter == "I am going to work"
       @answer = "Great"
+      @link = "http://localhost:3000/ask"
     elsif @enter.ends_with? ('?')
       @answer = "Silly question, get dressed and go to work!"
     else

@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+.rep{
+  padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-right: 10rem;
+    border: 1px solid #adb5bd;
+    border-left-width: 0.75rem;
+    border-radius: 0.25rem;
+    background-color: #dede64b8;
+}
+
+.quest{
+  padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-right: 10rem;
+    border: 1px solid #adb5bd;
+    border-left-width: 0.75rem;
+    border-radius: 0.25rem;
+
+}
+
+.text-input{
+  border-color: blue;
+  background-color: blue;
+}
